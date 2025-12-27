@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MyGym.AI — About</title>
+  <meta name="description" content="MyGym.AI — Train with Hundreds of Coaches in One App">
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span style="font-size:18px;">MyGym.AI</span> <span class="badge">Alpha</span></a>
+      <nav class="nav-links">
+        <a class="small" href="/coaches.html">For Coaches</a>
+        <a class="small" href="/pricing.html">Pricing</a>
+        <a class="small" href="/about.html">About</a>
+        <a class="btn small ghost" data-event="cta_join_waitlist" href="#waitlist">Join Waitlist</a>
+        <a class="btn small primary" data-event="cta_coach_cohort" href="/coaches.html#apply">Coach Cohort</a>
+      </nav>
+    </div>
+  </header>
+  
+<main class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1 class="h1">About MyGym.AI</h1>
+      <p class="subhead">We believe training outcomes should be driven by the best coaching judgment — accessible, explainable, and adaptive for everyone.</p>
+      <div class="card panel" style="background:#fff;">
+        <div class="h3">Mission</div>
+        <p class="small">Scale how great coaches think, without copying their programs. Build the most trustworthy training intelligence layer in the world.</p>
+        <div class="hr"></div>
+        <div class="h3">Values</div>
+        <ul class="small">
+          <li>Coach-respectful by design</li>
+          <li>Explainability over black boxes</li>
+          <li>Progress without guesswork</li>
+          <li>Privacy, safety, and responsible AI</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card panel">
+      <div class="h3">Founder note (placeholder)</div>
+      <p class="small">Replace this with Ryan’s short founder story: the problem with generic plans, why coaching judgment matters, and how MyGym.AI will earn trust.</p>
+      <div class="hr"></div>
+      <p class="small">Want to help? Join the waitlist or apply to the coach cohort.</p>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn primary" href="/#waitlist">Join Waitlist</a>
+        <a class="btn" href="/coaches.html#apply">Coach Cohort</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex; gap:14px; flex-wrap:wrap; justify-content:space-between; align-items:center;">
+        <div class="small">© 2025 MyGym.AI. All rights reserved.</div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="small" href="/privacy.html">Privacy</a>
+          <a class="small" href="/terms.html">Terms</a>
+          <a class="small" href="/coaches.html">For Coaches</a>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div id="waitlist" class="card panel">
+        <div class="h3">Join the waitlist</div>
+        <p class="small">Get early access when MyGym.AI launches. No spam.</p>
+        <form id="waitlistFormFooter" data-source="footer">
+          <div class="form-row">
+            <input class="input" type="email" name="email" placeholder="Email address" required />
+            <input class="input" type="text" name="company" placeholder="Company (leave blank)" style="display:none;" autocomplete="off" />
+            <button class="btn primary" type="submit" data-event="waitlist_submit_footer">Join Waitlist</button>
+          </div>
+          <div style="margin-top:10px" data-msg></div>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
