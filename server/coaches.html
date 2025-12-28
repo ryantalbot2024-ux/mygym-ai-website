@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MyGym.AI — For Coaches</title>
+  <meta name="description" content="MyGym.AI coach cohort: contribute coaching decision logic, protect IP, and earn based on impact.">
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span style="font-size:18px;">MyGym.AI</span> <span class="badge">Alpha</span></a>
+      <nav class="nav-links">
+        <a class="small" href="/coaches.html">For Coaches</a>
+        <a class="small" href="/pricing.html">Pricing</a>
+        <a class="small" href="/about.html">About</a>
+        <a class="btn small ghost" data-event="cta_join_waitlist" href="#waitlist">Join Waitlist</a>
+        <a class="btn small primary" data-event="cta_coach_cohort" href="/coaches.html#apply">Coach Cohort</a>
+      </nav>
+    </div>
+  </header>
+  
+<main class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1 class="h1">For Coaches</h1>
+      <p class="subhead">Help shape the future standard of training. Contribute decision logic — not programs — and get recognized and rewarded for the impact of your judgment.</p>
+      <div class="kpis">
+        <div class="kpi">30–90 sec prompts</div>
+        <div class="kpi">IP protected</div>
+        <div class="kpi">Revenue participation</div>
+        <div class="kpi">Influence reporting</div>
+      </div>
+    </div>
+    <div class="card panel">
+      <div class="h3">What you contribute</div>
+      <div class="hr"></div>
+      <p class="small"><strong>Scenario prompts:</strong> “Athlete stalls for 3 weeks — what do you change first?”</p>
+      <p class="small"><strong>AI overrides:</strong> When you adjust an AI prescription, we capture the reason (structured, not essays).</p>
+      <p class="small"><strong>Edge cases:</strong> Optional panels for injury-aware or over-35 logic.</p>
+    </div>
+  </div>
+</main>
+
+<section class="section">
+  <div class="container">
+    <h2 class="h2">IP and ethics</h2>
+    <div class="grid3">
+      <div class="card panel">
+        <div class="h3">No program copying</div>
+        <p class="small">We do not ingest or reproduce your programs, templates, or client plans.</p>
+      </div>
+      <div class="card panel">
+        <div class="h3">Abstracted decisions</div>
+        <p class="small">Your decisions are anonymized and aggregated into decision patterns with confidence scoring.</p>
+      </div>
+      <div class="card panel">
+        <div class="h3">Coach-respectful by design</div>
+        <p class="small">Users do not receive “Coach X’s plan.” They receive explainable logic informed by many coaches.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:linear-gradient(180deg,#fff, #f6f7ff);">
+  <div class="container">
+    <h2 class="h2">How you’re rewarded</h2>
+    <div class="grid2">
+      <div class="card panel">
+        <div class="h3">Influence reporting</div>
+        <p class="small">See how your logic impacts workouts at scale (e.g., “Your decisions influenced 12,000 sessions”).</p>
+      </div>
+      <div class="card panel">
+        <div class="h3">Revenue participation</div>
+        <p class="small">Compensation scales with impact and adoption, weighted by quality and outcomes.</p>
+      </div>
+      <div class="card panel">
+        <div class="h3">Recognition</div>
+        <p class="small">Optional “AI‑Certified Coach” status for the founding cohort.</p>
+      </div>
+      <div class="card panel">
+        <div class="h3">Insights</div>
+        <p class="small">Aggregated trend insights: what’s stalling athletes, what interventions outperform, and where coaches disagree.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="apply">
+  <div class="container">
+    <h2 class="h2">Apply to the Coach Cohort</h2>
+    <div class="card panel">
+      <form id="coachApplyForm">
+        <div class="form-row">
+          <input class="input" name="name" placeholder="Full name" required />
+          <input class="input" type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="form-row" style="margin-top:10px;">
+          <input class="input" name="years_experience" placeholder="Years of coaching experience" />
+          <input class="input" name="specialties" placeholder="Specialties (e.g., strength, hypertrophy, rehab-aware)" />
+        </div>
+        <div class="form-row" style="margin-top:10px;">
+          <input class="input" name="link" placeholder="Website / Instagram / LinkedIn (optional)" />
+          <input class="input" type="text" name="company" placeholder="Company (leave blank)" style="display:none;" autocomplete="off" />
+        </div>
+        <div style="margin-top:10px;">
+          <textarea class="input" name="note" placeholder="Anything we should know? (optional)"></textarea>
+        </div>
+        <div style="margin-top:10px;">
+          <button class="btn primary" type="submit" data-event="coach_apply_submit">Submit application</button>
+        </div>
+        <div style="margin-top:10px" data-msg></div>
+        <p class="small" style="margin-top:10px;">By applying, you acknowledge our pilot participation terms and privacy policy (links in footer).</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex; gap:14px; flex-wrap:wrap; justify-content:space-between; align-items:center;">
+        <div class="small">© 2025 MyGym.AI. All rights reserved.</div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="small" href="/privacy.html">Privacy</a>
+          <a class="small" href="/terms.html">Terms</a>
+          <a class="small" href="/coaches.html">For Coaches</a>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div id="waitlist" class="card panel">
+        <div class="h3">Join the waitlist</div>
+        <p class="small">Get early access when MyGym.AI launches. No spam.</p>
+        <form id="waitlistFormFooter" data-source="footer">
+          <div class="form-row">
+            <input class="input" type="email" name="email" placeholder="Email address" required />
+            <input class="input" type="text" name="company" placeholder="Company (leave blank)" style="display:none;" autocomplete="off" />
+            <button class="btn primary" type="submit" data-event="waitlist_submit_footer">Join Waitlist</button>
+          </div>
+          <div style="margin-top:10px" data-msg></div>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
